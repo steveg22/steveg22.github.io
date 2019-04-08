@@ -1,0 +1,45 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header.startup{
+	background-image: url("landing2.jpg");
+	background-size: cover;
+	height: 100%;
+	background-position: center;
+}
+
+.mainpage{
+	margin: 200px auto 30px auto;
+}
+
+.button-container{
+	margin-top: 200px;
+	padding-right: 25px;
+}
+
+.home-button:hover{
+  background-color: white;
+  border-color: #0069D9;
+  color: #0069D9;
+  cursor: pointer;
+}
+
+.btn {
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  width: 60%;
+  border-width: 3px;
+  border-color: #0069D9; 
+}
